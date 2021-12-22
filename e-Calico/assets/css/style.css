@@ -1,0 +1,376 @@
+
+.contVideo{
+	display:inline-block;
+	position:relative;
+}
+.ContBotonesPadre{
+	width: 100%;
+	position: absolute;
+	bottom:10%;
+	height: 20%;
+}
+.ContBotonesHijo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100%;
+}
+
+.butonResp{
+	width: 100%;
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: red;
+	border-radius: 2vw;
+	opacity: 0.7;
+	font-size: 2.5vw;
+	white-space: normal;
+	line-height: 100%;
+	font-weight: bold;
+	z-index: 2;
+	
+}
+
+.butonResp:hover{
+	opacity: 1;
+	color: black;
+	}
+.contBtIndi{
+width: 25%;
+height: 100%;
+
+}
+
+.ContBotonesMenu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100%;
+}
+
+.contBtMenu{
+	width: 25%;
+height: 100%;
+margin-top: 1%;
+margin-bottom: 2%;
+}
+
+.butonMenu{
+	background-color:#97D3AB !important ;
+	border: none !important;
+	box-shadow: none !important;
+	color: white !important;
+	width: 100%;
+	height: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-radius: 1.5vw;
+	font-size: 2.5vw;
+	white-space: normal;
+	line-height: 100%;
+	font-weight: bold;	
+}
+
+.butonMenu:hover{
+	background-color: #B4DFC3 !important;
+	color: black !important;
+}
+
+
+
+.C_Medal{
+    width: 23%;
+    position: absolute;
+    height: 10%;
+    background-color: rgba(100, 91, 91, 0.467);
+    border-radius: 0.7em;
+    top: 6%;
+    margin-left: 3%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.medal{	
+	
+	height: 100%;
+	width: 100%;
+	padding: 10%;
+	opacity: 0.3;
+}
+
+.content{
+	width: 100%;
+	position:relative;
+}
+
+
+
+#Creditos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+height: 100%;
+padding-top: 9%;
+padding-bottom: 9%;
+}
+
+#Misiones{
+width: 60%;
+height: 100%;
+padding-top: 6%;
+padding-bottom: 6%;
+margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+
+.contFlores{
+	width: 103.5%;
+	margin-left: -1.8%;
+	position: absolute;
+	top:-12.9%
+}
+
+.contFloresCred{
+	width: 103.5%;
+	margin-left: -1.8%;
+	position: absolute;
+	top:-13.7%
+}
+
+
+.contFloresDown{
+	width: 103.5%;
+	margin-left: -1.8%;
+	position: absolute;
+	top:86.5%
+}
+
+.contFloresCredDown{
+	width: 103.5%;
+	margin-left: -1.8%;
+	position: absolute;
+	top:85.8%
+}
+
+.imgFlores{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border-radius: 0;
+}
+
+.txtModal{
+	color: black !important;
+	font-size: 2.5vw;
+	white-space: normal;
+	line-height: 100%;
+	font-weight: normal;
+}
+.modal-content { 
+	background: linear-gradient(103.16deg, rgba(76, 184, 112, 0.8) 67.71%, rgba(79, 126, 95, 0.1) 117.65%) !important;
+box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(50px);
+	backdrop-filter: blur(50px);
+	
+	color: #363636;
+ }
+
+ .modal-dialog{
+	 width: 70% !important;
+	
+
+	
+ }
+
+.btnhorizontal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btnvertical{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+height: 100%;
+}
+
+.btnMision{
+	background-color: #6bf39a;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35) !important;
+	color: #363636;
+	font-family: 'Roboto', sans-serif;
+  
+	   width: 30%;
+	  height: 100%;
+	  
+	  padding-top: 2%;
+	  padding-bottom: 2%;
+	  margin:3%;
+	  border-radius: 1.5vw;
+	  font-size: 2.5vw;
+	  white-space: normal;
+	  line-height: 100%;
+	  font-weight: normal;	
+
+
+}
+
+.btnMision:hover{
+	background-color: #6bf39a !important;
+	border: none;
+	box-shadow: none !important;
+}
+
+
+
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  
+  position: static;
+  width: 23%;
+  height: 23%;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 0px 3.06944px rgba(0, 0, 0, 0.25);
+  border-radius: 1.5vw;
+
+  color: #363636;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30rvw;
+  line-height:normal;
+  text-align: center;
+}
+
+.txtCargo{
+	font-weight: bold;
+	font-size: 1.5vw;
+	white-space: normal;
+	line-height: 100%;
+}
+
+.txtNombre{
+	font-size: 1vw;
+	white-space: normal;
+	line-height: 100%;
+}
+
+.modal-content{
+margin-top: 8% !important;
+}
+
+
+img {
+  border-radius: 50%; 
+}
+
+
+.foto{
+	width: 70%;
+	height: 70%;
+
+}
+
+.imgFoto{
+	width: 100%;
+	height: 100%;
+}
+
+#floresAbajo{
+	transform: rotate(180deg);
+}
+
+.modalIntro{
+	border-radius: 0;
+	background-color:#F5FFF6;
+	width: 30%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 1.17vw;
+	position:absolute;
+	z-index: 10;
+	top: 20%;
+	left:35%;
+}
+
+.fondoNegro{
+	background-color: black;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 124.4%;
+	top: 0;
+	left: 0;
+}
+
+.contGifPacha{
+	width: 10vw;
+	height:18vw;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.GifPachamama{
+width: 100%;
+height: 100%;
+border-radius: 0 !important;
+}
+
+.txtTituloIntro{
+	font-size: 2.5vw;
+	font-weight: bold;
+	color: black !important;
+	white-space: normal;
+	line-height: 100%;
+}
+
+.txtExplicacion{
+	margin-top: 3%;
+	text-align: center;
+	white-space: normal;
+	font-size: 1vw;
+	line-height: 100%;
+}
+
+.butonplay{
+margin-top: 5%;
+margin-bottom: 5%;
+
+border: 0.22vw solid #6AC187 ;
+box-sizing: border-box;
+border-radius: 1vw;
+padding: 1vw;
+padding-left: 2vw;
+padding-right: 2vw;
+color: #6AC187 !important;
+display: flex;
+align-items: center;
+font-weight: bold;
+box-sizing: border-box;
+white-space: normal;
+font-size: 1.2vw;
+line-height: 100%;
+}
+
+.butonplay:hover{
+	background-color: #6AC187 !important;
+	color: black !important;
+	border:none
+}

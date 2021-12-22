@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>e-Calico</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+</head>
+<body class="is-preload">
+
+	<!-- Main -->
+	<div id="main">
+
+	<!-- Video -->
+		<section id="intro" class="main">
+
+			<div id="main">
+
+				<div class="ContBotonesMenu">
+					<div class="contBtMenu" >
+						<button class="butonMenu" id="btMenu1" data-toggle="modal" data-target="#myModal"> Misiones</button>
+					</div>
+					<div class="contBtMenu">
+						<button class="butonMenu" id="btMenu2" data-toggle="modal" data-target="#modalCreditos">Créditos</button>
+					</div>
+
+				</div>
+					
+				<!--Modal misiones-->
+				<div id="myModal" class="modal fade" role="dialog" show:true>
+					<div class="modal-dialog">  
+					  <!-- Modal content-->
+					  <div class="modal-content modalNue">
+						<div class="modal-body">
+							<div class="content">
+								<div class="contFlores">
+									<img class="imgFlores" src="./images/Adornossup.png"  alt="AdornoArriba">
+								</div>
+
+								<div id="Misiones">
+									
+									<div class="btnvertical">
+										<h3 class="txtModal">Bienvenido, quieres completar una misión en concreto? ¡elige una!</h3>
+										<div class="btnhorizontal">
+											<button class="btnMision"  id="btnIE" type="button">Impacto<br> Económico</button>
+											<button class="btnMision"  id="btnIA" type="button">Impacto<br> Ambiental</button>
+										</div>
+										<div class="btnhorizontal">
+											<button class="btnMision"  id="btnIS" type="button">Impacto  <br>Social</button>
+											<button class="btnMision"  id="btnIC" type="button">Impacto  <br>Cultural</button>
+										</div>
+									</div>
+								</div>
+
+								<div class="contFloresDown">
+									<img class="imgFlores" id="floresAbajo" src="./images/Adornossup.png"  alt="AdornoArriba">
+								</div>
+
+								</div>
+						</div>				
+					  </div>	  
+					</div>
+				  </div>
+
+				  	<!--Modal misiones-->
+				<div id="modalCreditos" class="modal fade" role="dialog">
+					<div class="modal-dialog modal-lg">  
+					  <!-- Modal content-->
+					  <div class="modal-content">
+						<div class="modal-body">
+							<div class="content">
+								<div class="contFloresCred">
+									<img class="imgFlores" src="./images/Adornossup.png"  alt="AdornoArriba">
+								</div>
+								<div id="Creditos">
+
+									<div class= "tarjeta">
+										<div class="foto">
+											<img src="./images/FotoCamila.png" class="imgFoto"  alt="FotoCamila">
+										</div>
+										<p class="txtNombre"><br>Maria Camila <br> Ruiz Martinez</p>
+										<h4 class="txtCargo">Project <br>Manager</h4>
+									</div>
+
+									<div class= "tarjeta">
+										<div class="foto">
+											<img src="./images/FotoCamilo.png" class="imgFoto"  alt="FotoCamila">
+										</div>
+										<p class="txtNombre"><br>Juan Camilo<br>Bolaños Aldana</p>
+           								 <h4 class="txtCargo">Front-End Developer</h4>
+									</div>
+
+									<div class= "tarjeta">
+										<div class="foto">
+											<img src="./images/FotoKamilo.png" class="imgFoto"  alt="FotoCamila">
+										</div>
+										<p class="txtNombre"><br>Kamilo Stevan<br>Alomías Correa</p>
+										<h4 class="txtCargo">UI/Content <br>Designer</h4>
+									</div>
+							
+						
+							
+								</div>
+
+								<div class="contFloresCredDown">
+									<img class="imgFlores" id="floresAbajo" src="./images/Adornossup.png"  alt="AdornoArriba">
+								</div>
+
+								</div>
+						</div>				
+					  </div>	  
+					</div>
+				  </div>
+
+
+				  <!--Modal Introduccion-->
+				  <div  id="modalIntroId">
+					  <div class="fondoNegro"></div>
+						<div class="modalIntro"  >
+							<div class="contGifPacha">
+								<img class="GifPachamama" id="gifpacha" src="./images/pacha.gif"  alt="AdornoArriba">
+							</div>
+							
+							<h1 class="txtTituloIntro">¡Bienvenido a Ecalico!</h1>
+							<p class="txtExplicacion">Una aventura para concientizar sobre <br> el cambio climático, ¿estás listo?</p>
+							<button class="butonplay" id="btPlay">¡EMPECEMOS!</button>
+						</div>
+				  </div>
+				
+
+				<div class="contVideo">
+					
+					<video  id="video" controls> 
+
+					<source id="sv" src="VIDEO_/video/Ecocalico.mp4"   width="800" height="600" type="video/mp4">	
+
+					</video>
+
+					<div class="ContBotonesPadre">
+						<div class="ContBotonesHijo">
+							<div class="contBtIndi">
+								<button class="butonResp" id="bt1"> Comprar Productos desechables</button>
+							</div>
+							<div class="contBtIndi">
+								<button class="butonResp" id="bt2">Comprar Productos reutilizables</button>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="C_Medal" id="CMedal" >
+
+
+						<div class="Medal">
+							<img class="medal" id="medalV1" src="./VIDEO_/video/medal.png"/>
+						</div>
+						<div class="Medal">
+							<img class="medal" id="medalV2" src="./VIDEO_/video/medal.png"/>
+						</div>
+						<div class="Medal">
+							<img class="medal" id="medalV3" src="./VIDEO_/video/medal.png"/>
+						</div>
+						<div class="Medal">
+							<img class="medal" id="medalV4" src="./VIDEO_/video/medal.png"/>
+						</div>
+					</div>
+
+				
+				</div>
+			</div>
+	</div>
+		</section>
+	</div>
+
+
+
+	<!-- Scripts -->
+	<!-- <script src="VIDEO_/src/Prueba.js"></script> -->
+	<script src="assets/js/Botones.js"></script>
+	<script src="assets/js/Menu.js"></script>
+	</body>
+</html>
